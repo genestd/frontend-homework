@@ -1,0 +1,32 @@
+.form-container{
+  min-height: 25vh;
+}
+.button-center{
+  margin: 25% auto;
+}
+.top-bar{
+  background-color: #bd081c;
+}
+.logo{
+  font-size: 24px;
+}
+.text-white{
+  color: white;
+}
+
+.reveal{
+  margin: 0 auto;
+}
+.form-title{
+  background-color: #ffca28;
+  color: white;
+}
+.text-mono{
+  font-family: monospace;
+}
+.no-pad{
+  padding: 0;
+}
+.small-pad{
+  padding: 10px;
+}
