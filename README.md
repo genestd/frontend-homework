@@ -1,15 +1,15 @@
 # SETUP
 
-Clone this repository
-Run `npm install`
-Create a .env file with the following entries:
+1. Clone this repository
+2. Run `npm install`
+3. Create a .env file with the following entries:
  - [ ] PORT=8080
  - [ ]MONGO_USER=
  - [ ]MONGO_PASSWORD=
  - [ ]MONGO_HOST=
  - [ ]MONGO_PORT=
  - [ ]MONGO_DB=
- for best results, some seed data is needed.  (A client list, a work item list, and some starter invoices).  Note: You can view the app connected to my data source at https://dg-invoice.glitch.me/
+4. For best results, some seed data is needed.  (A client list, a work item list, and some starter invoices).  Note: You can view the app connected to my data source with seed data at https://dg-invoice.glitch.me/
 
 Run `npm test` to start the server
 The app will start on port 8080
