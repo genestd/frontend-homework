@@ -9,7 +9,7 @@ Create a .env file with the following entries:
  - [ ]MONGO_HOST=
  - [ ]MONGO_PORT=
  - [ ]MONGO_DB=
- for best results, some seed data is needed.  (A client list, a work item list, and some starter invoices).  Note: you can contact me for access to my test data.
+ for best results, some seed data is needed.  (A client list, a work item list, and some starter invoices).  Note: You can view the app connected to my data source at https://dg-invoice.glitch.me/
 
 Run `npm test` to start the server
 The app will start on port 8080
@@ -19,7 +19,7 @@ The app will start on port 8080
 
 The assignment said it should take a few hours.  I tried to limit myself to about 8 hours or 1 day of work.  I wasn't able to spend an entire day on this, but I think it was about 8 hours over the course of 3 days.
 
-** Tools
+## Tools
 
 I used React and Redux for the front end, and Foundation 6 framework to make it pretty and handle responsiveness, modals, etc.
 

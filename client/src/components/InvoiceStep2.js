@@ -104,9 +104,7 @@ class InvoiceStep2 extends React.Component{
                 return( <div key={index+item.description+item.quantity+item.amount}>{item.amount}</div>)
               })}
             </div>
-            /*
-            *  Note we calculate the total on-the-fly
-            */
+            
             <div className="column small-12 text-mono">
               <div>------</div>
               <div>Total:{this.props.invoice.formInvoiceItems.reduce( ( acc, cur ) =>

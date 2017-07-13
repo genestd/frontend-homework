@@ -4,7 +4,7 @@
   "description": "starter package for full stack apps",
   "main": "index.js",
   "scripts": {
-    "test": "node server.js",
+    "start": "node server.js",
     "client": "webpack-dev-server"
   },
   "author": "genestd",
