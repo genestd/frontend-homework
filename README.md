@@ -3,7 +3,7 @@
 1. Clone this repository
 2. Run `npm install`
 3. Create a .env file with the following entries:
- - [ ] PORT=8080
+ - [ ]PORT=8080
  - [ ]MONGO_USER=
  - [ ]MONGO_PASSWORD=
  - [ ]MONGO_HOST=
