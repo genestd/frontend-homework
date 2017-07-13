@@ -1,36 +1,36 @@
-# Seed Frontend Homework
+# SETUP
 
-As part of our application process, we'd like to see what you can produce by giving you a small assignment. It should take you no more than a few hours to complete the assignment, but any extra polish or features you might want to put in will not go unnoticed.
+Clone this repository
+Run `npm install`
+Create a .env file with the following entries:
+ - [ ] PORT=8080
+ - [ ]MONGO_USER=
+ - [ ]MONGO_PASSWORD=
+ - [ ]MONGO_HOST=
+ - [ ]MONGO_PORT=
+ - [ ]MONGO_DB=
+ for best results, some seed data is needed.  (A client list, a work item list, and some starter invoices).  Note: you can contact me for access to my test data.
 
-## The assignment
+Run `npm test` to start the server
+The app will start on port 8080
 
-We would like you to create an invoicing app. The features it should include:
 
- - [ ] Create a new invoice
- - [ ] Add line items to the invoice. Line items may include hours of work at a certain rate, work-related expenses, materials, labor, etc.
- - [ ] Add notes to the invoice, including possibly how to pay it, where to send checks, etc.
- - [ ] Send the invoice via email (does not have to actually send emails, but if it does, great!)
- - [ ] View invoices including status (paid, outstanding, late, etc.)
+## Constraints
 
-Your backend can be anything, and does not have to work. If you would like to use a mocked-out interface, that is fine (even static data in code is ok).
+The assignment said it should take a few hours.  I tried to limit myself to about 8 hours or 1 day of work.  I wasn't able to spend an entire day on this, but I think it was about 8 hours over the course of 3 days.
 
-#### Extra credit features
+** Tools
 
- - [ ] Add a due date to an invoice
- - [ ] View late invoices, or even better, alert when an invoice is late
- - [ ] Polish and UX
- - [ ] Highly reusable components
- - [ ] Tests
+I used React and Redux for the front end, and Foundation 6 framework to make it pretty and handle responsiveness, modals, etc.
 
-## Requirements
+I used express and mongoDB for the back end.
 
-You should use the following tools to accomplish this task:
+Axios is the package to connect the client and server
 
- - React
- - Flux
- - Webpack (should run with webpack-dev-server)
- - Babel - ES6/7 Syntax - you pick the stages
 
-If you have any questions, please ask!
+## Todos
 
-To complete your homework, please fork this repo and commit your work to your fork. When you are ready for us to look at it, give us access to your fork so we can review and run it.
+Even after 8 hours there are still lots of features not implemented.  The most critical items from my perspective:
+  * Prettifying the client.  This is always a slow task for me and I didn't have much time left over for it
+  * Form validation.  I did just enough to keep it from erroring out, but there is room for improvement
+  * Invoice Life Cycle.  I ran out of time connecting the Status life cycle to the server.  Ideally there would be a flow to handle past due items, and to update status when user interacted with the invoice.  
